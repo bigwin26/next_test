@@ -47,6 +47,15 @@ export default function Page() {
           />
         </div>
       </div>
+      <div className="flex max-w-lg items-center space-x-5 rounded-xl bg-white p-6 shadow-lg">
+        <div className="shrink-0">
+          <img />
+        </div>
+        <div>
+          <div className="text-xl font-medium text-black">ChitChat</div>
+          <p className="text-slate-500">You have a message!</p>
+        </div>
+      </div>
     </main>
   );
 }
